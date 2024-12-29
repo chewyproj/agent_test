@@ -5,7 +5,7 @@
 # Environment files
 *.env
 
-# Python-specific files
+# Python-specific files (excluding .py files)
 __pycache__/
 *.py[cod]
 *.pyo
@@ -28,10 +28,3 @@ pip-delete-this-directory.txt
 # OS-specific files
 .DS_Store
 Thumbs.db
-
-# Uploaded files
-app.log
-keys.env
-requirements.txt
-testapi.py
-twitter_bot.py
